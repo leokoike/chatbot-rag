@@ -5,7 +5,8 @@ from src.infra.config import settings
 
 class WhatsAppAPI:
     def __init__(self, base_url: str, headers: dict):
-        self.client = ClientSession(base_url=base_url, headers=headers)
+        self.base_url = base_url
+        self.headers = headers
 
     def __create_message_payload(self, message: str, phone_number: str) -> dict:
         return {
@@ -19,7 +20,9 @@ class WhatsAppAPI:
     async def send_message(self, message: str, phone_number: str) -> dict:
         body = self.__create_message_payload(message, phone_number)
         data = None
-        async with self.client as session:
+        async with ClientSession(
+            base_url=self.base_url, headers=self.headers
+        ) as session:
             response = await session.post(
                 url=f"v21.0/{settings.META_ID_NUMBER}/messages/",
                 json=body,
