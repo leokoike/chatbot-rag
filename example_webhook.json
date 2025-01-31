@@ -1,0 +1,39 @@
+{
+   "object":"whatsapp_business_account",
+   "entry":[
+      {
+         "id":"566084273249096",
+         "changes":[
+            {
+               "value":{
+                    "messaging_product":"whatsapp",
+                    "metadata":{
+                        "display_phone_number":"",
+                        "phone_number_id":""
+                    },
+                    "contacts":[
+                        {
+                            "profile":{
+                            "name":"Leonardo Koike"
+                            },
+                            "wa_id":"<PHONE_NUMBER>"
+                        }
+                    ],
+                    "messages":[
+                        {
+                            "from":"<PHONE_NUMBER>",
+                            "id":"wamid",
+                            "timestamp":"1738005263",
+                            "text":{
+                                "body":"Ola mundo! Esse é um teste de integracao com a API da META"
+                            },
+                            "type":"text"
+                        }
+                    ]
+               },
+               "field":"messages"
+            }
+         ]
+      }
+   ]
+}

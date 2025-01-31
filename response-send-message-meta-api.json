@@ -1,0 +1,15 @@
+{
+  "messaging_product": "whatsapp",
+  "contacts": [
+    {
+      "input": "<WHATSAPP_USER_PHONE_NUMBER>",
+      "wa_id": "<WHATSAPP_USER_ID>"
+    }
+  ],
+  "messages": [
+    {
+      "id": "<WHATSAPP_MESSAGE_ID>",
+      "message_status": "<PACING_STATUS>"
+    }
+  ]
+}
