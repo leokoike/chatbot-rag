@@ -1,0 +1,43 @@
+{
+   "object":"whatsapp_business_account",
+   "entry":[
+      {
+         "id":"566084273249096",
+         "changes":[
+            {
+               "value":{
+                  "messaging_product":"whatsapp",
+                  "metadata":{
+                     "display_phone_number":"15551486197",
+                     "phone_number_id":"534370733096269"
+                  },
+                  "contacts":[
+                     {
+                        "profile":{
+                           "name":"Leonardo Koike"
+                        },
+                        "wa_id":"<PHONE_NUMBER>"
+                     }
+                  ],
+                  "messages":[
+                     {
+                        "from":"<PHONE_NUMBER>",
+                        "id":"wamid",
+                        "timestamp":"1738604048",
+                        "type":"document",
+                        "document":{
+                           "caption":"leonardo-koike-resume.pdf",
+                           "filename":"leonardo-koike-resume.pdf",
+                           "mime_type":"application/pdf",
+                           "sha256":"MCM84Whub5wyUMRPnBZnxJxFysHkqr+Vmbu5c6fmLMo=",
+                           "id":"2741855239345848"
+                        }
+                     }
+                  ]
+               },
+               "field":"messages"
+            }
+         ]
+      }
+   ]
+}

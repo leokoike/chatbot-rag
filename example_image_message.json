@@ -1,0 +1,41 @@
+{
+   "object":"whatsapp_business_account",
+   "entry":[
+      {
+         "id":"566084273249096",
+         "changes":[
+            {
+               "value":{
+                  "messaging_product":"whatsapp",
+                  "metadata":{
+                     "display_phone_number":"15551486197",
+                     "phone_number_id":"534370733096269"
+                  },
+                  "contacts":[
+                     {
+                        "profile":{
+                           "name":"Leonardo Koike"
+                        },
+                        "wa_id":"5511966301852"
+                     }
+                  ],
+                  "messages":[
+                     {
+                        "from":"5511966301852",
+                        "id":"wamid.HBgNNTUxMTk2NjMwMTg1MhUCABIYFjNFQjBGQkUwRjU5MkU0N0E2OTdEM0YA",
+                        "timestamp":"1738603776",
+                        "type":"image",
+                        "image":{
+                           "mime_type":"image/jpeg",
+                           "sha256":"lIoPScBwf+Pggy+un1SJSuQpGny+fCB69h3FoGlAJIU=",
+                           "id":"643596338354121"
+                        }
+                     }
+                  ]
+               },
+               "field":"messages"
+            }
+         ]
+      }
+   ]
+}
